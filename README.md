@@ -1,6 +1,6 @@
 # Relógio Digital
 
- ![preview](./.github/preview.gif)
+ ![preview](./.github/preview.png)
  
  - Relógio com horas atuais.
 
