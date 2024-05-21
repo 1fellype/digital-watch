@@ -22,9 +22,9 @@ const Clock = () => {
   return (
     <div className="Clock">
       <span>{formattedHours}</span>
-      <span>:</span>
+      <span className="point">:</span>
       <span>{formattedMinutes}</span>
-      <span>:</span>
+      <span className="point">:</span>
       <span>{formattedSeconds}</span>
     </div>
   );
