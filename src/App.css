@@ -1,14 +1,18 @@
 /* clock.css */
 
+/* General clock styles */
 .Clock {
-  font-family: sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  margin: 50px auto;
-  background-color: black;
-  border-radius: 10px;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em; /* Set the overall font size */
+  color: #333; /* Set the text color */
 }
+
+/* Separator styles */
+.Clock span:nth-child(2),
+.Clock span:nth-child(4) {
+  margin: 0 10px; /* Add spacing between separators */
+}
+
 
